@@ -23,7 +23,7 @@ namespace Microsoft.Bot.Sample.SimpleEchoBot
         {
             if (activity.Type == ActivityTypes.Message)
             {
-                await Conversation.SendAsync(activity, () => new Dialogs.RootDialog());
+                await Conversation.SendAsync(activity, () => new Microsoft.Bot.Sample.SimpleEchoBot.EchoDialog());
             }
             else
             {
