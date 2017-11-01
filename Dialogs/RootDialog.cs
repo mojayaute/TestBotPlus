@@ -4,8 +4,9 @@ using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Connector;
 using System.Net;
 using Newtonsoft.Json;
+using Microsoft.Bot.Sample.SimpleEchoBot;
 
-namespace Microsoft.Bot.Sample.SimpleEchoBot
+namespace Botqnamaker.Dialogs
 {
     [Serializable]
     public class RootDialog : IDialog<object>

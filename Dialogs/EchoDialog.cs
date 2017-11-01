@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using Newtonsoft.Json;
-
+using System.Net;
 
 namespace Microsoft.Bot.Sample.SimpleEchoBot
 {
